@@ -9,13 +9,6 @@ header{
     height: 720px;
 }
 
-img{
-    width:200px;
-    border-radius:100px; 
-    display: flex;
-    flex-direction: row;
-}
-
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -32,8 +25,15 @@ display:flex;
 justify-content: center;    
 }
 
+.femcode-logo{
+width: 450px;
+display: flex;
+flex-direction: row;
+
+}
+
 .icon-arrow-down{
-    margin-top: 325px;
+    margin-top: 250px;
     display:flex;
     justify-content: center;
     font-size: 35px;
@@ -52,50 +52,80 @@ h2{
 
 .pquienes{
     text-align:justify;
-    padding: 50px 200px 50px 200px;
+    padding: 10px 200px 0px 200px;
     font-size: 18px;
     line-height: 35px;
 }
 
+h3{
+text-align: center;
+}
+
 .fila1{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
-.icon-github{
-    padding: 40px 10px 10px 10px;
-    font-size: 30px;
+.ana{
+    display: flex;
+    display: inline;
 }
 
-.icon-linkedin{
-    padding: 10px 10px 10px 20px;
-    font-size: 25px;
+.fotoAna{
+    width: 200px;
+    border-radius: 100%;
+    padding: 0px 0px 0px 0px;
 }
 
+.parrafoposicion{
+    display: inline;
+    text-align: center;
+}
+
+.fotoValentina{
+    width: 200px;
+    border-radius: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+span{
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+}
 
 .fila2{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
+.fotoLaura{
+    width: 200px;
+    border-radius: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+.fotoGracia{
+    width: 200px;
+    border-radius: 100%;
+    padding: 0px 0px 0px 0px;
+}
 .servicios{
     background-color: white;
-    height: 300px;
+    height: 720px;;
 }
 
 .trabajos{
     background-color: gray;
-    height: 300px;
+    height: 720px;;
 }
 
 footer{
     background-color: black;
-    height:200px; 
+    height:350px; 
     color: white;
 }
 

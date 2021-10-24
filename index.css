@@ -1,12 +1,12 @@
 *{
-    width: 100%; 
-    margin: 0 auto; 
+    width: auto; 
+    margin: auto;  
 }
 
 header{
     background-color: black;
     color:white; 
-    height: 200px;
+    height: 720px;
 }
 
 img{
@@ -21,16 +21,24 @@ nav ul{
     justify-content: space-around;
     flex-direction: row;
     /*align-items: center;*/
-    margin: 0px 300px 0px 300px;
+    margin: 0px 320px 0px 320px;
     padding-top: 25px;
     list-style: none;
 }
 
 .logotipo{
-margin-top: 40px;    
+margin-top: 250px;    
 display:flex;
 justify-content: center;    
 }
+
+.icon-arrow-down{
+    margin-top: 325px;
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
 
 h2{
     text-align: center;
@@ -39,12 +47,14 @@ h2{
 
 .quienes {
     background-color: grey;
-    height: 600px; 
+    height: 720px;
 }
 
 .pquienes{
     text-align:justify;
-    padding: 20px 35px 20px 35px;
+    padding: 50px 200px 50px 200px;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 .fila1{
@@ -54,6 +64,17 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
+
+.icon-github{
+    padding: 40px 10px 10px 10px;
+    font-size: 30px;
+}
+
+.icon-linkedin{
+    padding: 10px 10px 10px 20px;
+    font-size: 25px;
+}
+
 
 .fila2{
     display: flex;
@@ -77,3 +98,5 @@ footer{
     height:200px; 
     color: white;
 }
+
+
